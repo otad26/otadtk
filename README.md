@@ -120,7 +120,7 @@ score, cj = compute_otad(ref_emb, eval_emb, return_sample_costs=True)
 @inproceedings{otad2026,
   author    = {Anonymous Author(s)},
   title     = {{OTAD}: Optimal Transport Audio Distance with Learned Riemannian Ground Metrics},
-  booktitle = {NeurIPS Datasets \& Benchmarks},
+  booktitle = {NeurIPS},
   year      = {2026}
 }
 ```
