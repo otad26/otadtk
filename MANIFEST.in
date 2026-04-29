@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include DOUBLE_BLIND_NOTES.md
+recursive-include otadtk/checkpoints *.pt
+recursive-include tests *.py
+recursive-include examples *.py
