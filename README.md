@@ -127,4 +127,4 @@ score, cj = compute_otad(ref_emb, eval_emb, return_sample_costs=True)
 
 ## License
 
-MIT — see [`LICENSE`](LICENSE).
+CC-BY-4.0 — see [`LICENSE`](LICENSE).
