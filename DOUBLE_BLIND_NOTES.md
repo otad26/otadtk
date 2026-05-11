@@ -19,6 +19,8 @@ institutions.
 | **Adapter checkpoints** | **All 18 bundled under `otadtk/checkpoints/`; package runs end-to-end with no network access** |
 | Reference encoders | Loaded from official public hubs (HuggingFace / TF-Hub / `torch.hub`); those calls do not reveal our identity |
 | Citation block | Anonymous BibTeX placeholder |
+| PyPI distribution | **Not used during review.** Public PyPI release is deferred to the camera-ready stage (Appendix B.6). |
+
 
 If you discover any artefact that violates anonymity, please notify the area
 chair; we will release a corrected snapshot.
