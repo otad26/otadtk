@@ -32,12 +32,16 @@ and **per-sample diagnostics**, with a CLI compatible with
 - **CPU & CUDA** — pure-PyTorch primitives; CUDA is auto-used when
   available.
 
-## Install
-
+ ## Install
+ 
 ```bash
-pip install otadtk                     # core (numpy, torch, soundfile, …)
-pip install "otadtk[all-encoders]"     # adds transformers, encodec, openl3, laion-clap
+# Anonymous review distribution.
+# Download the source tree from the URL listed on the OpenReview
+# submission record (FAQ-recommended anonymous.4open.science mirror).
+unzip otadtk.zip && cd otadtk
+pip install -e ".[all-encoders]"
 ```
+
 
 Python 3.10–3.12, PyTorch ≥ 2.1.
 
